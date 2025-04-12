@@ -95,5 +95,6 @@ public class SnakeGame extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         move();
         repaint();
+        
     }
 }
