@@ -17,5 +17,6 @@ public class App {
         frame.add(snakeGame);
         //Resolve the problem of dimensions of JPanel to add width 600 and height 600 to this
         frame.pack();
+        snakeGame.requestFocus();
     }
 }
